@@ -14,9 +14,11 @@ app features includes;
 - chartview implementation
 
 
-# Screenshots
+# Screenshots!
+[CleanShot 2022-07-17 at 14 13 45@2x](https://user-images.githubusercontent.com/79908524/179388082-7e3d2aa5-60f5-45aa-8661-c546b3373c28.png)
+
 ![CleanShot 2022-07-17 at 14 08 46@2x](https://user-images.githubusercontent.com/79908524/179387908-1d44aac3-c17e-4065-84de-a732273f5650.png)
-![CleanShot 2![CleanShot 2022-07-17 at 14 11 09@2x](https://user-images.githubusercontent.com/79908524/179387989-bc423a86-510c-462b-b049-806f77dea653.png)
+
 ![CleanShot 2022-07-17 at 14 12 05@2x](https://user-images.githubusercontent.com/79908524/179388026-188b124f-6999-48b0-9b5a-92eb8535baf1.png)
 
 
