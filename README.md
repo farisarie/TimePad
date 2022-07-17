@@ -5,7 +5,7 @@
 
 # Description
 This apps was made based on what i need for time management. It has two features, first one it can add specific timer for activities for many categories to choose, and also there's black and white theme. Second features can set a timer on the activity you want to do. I store every selected data in this application to realm where in this project I also try to learn realm implementation
-You have to import "pod 'RealmSwift', '~>10' " before run the project
+
 
 # Features
 app features includes;
@@ -14,6 +14,8 @@ app features includes;
 - dark and light apps theme
 - chartview implementation
 
+# Installation
+You have to import "pod 'RealmSwift', '~>10' " before run the project
 
 # Screenshots!
 ![CleanShot 2022-07-17 at 14 13 45@2x](https://user-images.githubusercontent.com/79908524/179388082-7e3d2aa5-60f5-45aa-8661-c546b3373c28.png)
