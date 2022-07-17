@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C15361572846639200B09791 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15361562846639200B09791 /* DateExtensions.swift */; };
+		C15AD3D4282FE1D50029C9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3D3282FE1D50029C9F9 /* AppDelegate.swift */; };
+		C15AD3D6282FE1D50029C9F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3D5282FE1D50029C9F9 /* SceneDelegate.swift */; };
+		C15AD3DD282FE1D60029C9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15AD3DC282FE1D60029C9F9 /* Assets.xcassets */; };
+		C15AD3E0282FE1D60029C9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15AD3DE282FE1D60029C9F9 /* LaunchScreen.storyboard */; };
+		C15AD3EA282FE2860029C9F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3E9282FE2860029C9F9 /* MainViewController.swift */; };
+		C15AD3EE282FE5940029C9F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3ED282FE5940029C9F9 /* HomeViewController.swift */; };
+		C15AD3F0282FE5A50029C9F9 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3EF282FE5A50029C9F9 /* ChartViewController.swift */; };
+		C15AD3F3282FEDA50029C9F9 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3F2282FEDA50029C9F9 /* UIColorExtensions.swift */; };
+		C15AD3F7282FF3F30029C9F9 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AD3F6282FF3F30029C9F9 /* UIViewControllerExtensions.swift */; };
+		C163D05C2839C1FA00BAB583 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163D05B2839C1FA00BAB583 /* Tag.swift */; };
+		C163D05E2839C21700BAB583 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163D05D2839C21700BAB583 /* Category.swift */; };
+		C163D0612839C93100BAB583 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163D0602839C93100BAB583 /* AddTaskViewController.swift */; };
+		C163D0632839E75F00BAB583 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C163D0622839E75F00BAB583 /* Task.swift */; };
+		C16A977C2834EC1F00CE64D5 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A977B2834EC1F00CE64D5 /* TabBarButton.swift */; };
+		C16A977E2834ECE800CE64D5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A977D2834ECE800CE64D5 /* TabBarView.swift */; };
+		C16A97802834ED2600CE64D5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A977F2834ED2600CE64D5 /* BaseViewController.swift */; };
+		C16F302A28364F2200AFF20D /* TaskViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F302928364F2200AFF20D /* TaskViewCell.swift */; };
+		C16F302C28366B4300AFF20D /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F302B28366B4300AFF20D /* HistoryViewCell.swift */; };
+		C1910CBE283D137900FE04AD /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910CBD283D137900FE04AD /* TimeIntervalExtensions.swift */; };
+		C1910CC0283D13B600FE04AD /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1910CBF283D13B600FE04AD /* TaskViewController.swift */; };
+		D0C5A2D61E2078FC287EAFA6 /* Pods_TimePad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11F5F8E66976ED8B2D00D8A /* Pods_TimePad.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11BF4C84AFFDFB32A16EC9A1 /* Pods-TimePad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimePad.debug.xcconfig"; path = "Target Support Files/Pods-TimePad/Pods-TimePad.debug.xcconfig"; sourceTree = "<group>"; };
+		47BA5B088A040C3577AA3DBD /* Pods-TimePad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimePad.release.xcconfig"; path = "Target Support Files/Pods-TimePad/Pods-TimePad.release.xcconfig"; sourceTree = "<group>"; };
+		C15361562846639200B09791 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		C15AD3D0282FE1D50029C9F9 /* TimePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15AD3D3282FE1D50029C9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C15AD3D5282FE1D50029C9F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C15AD3DC282FE1D60029C9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C15AD3DF282FE1D60029C9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C15AD3E1282FE1D60029C9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15AD3E9282FE2860029C9F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C15AD3ED282FE5940029C9F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C15AD3EF282FE5A50029C9F9 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C15AD3F2282FEDA50029C9F9 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		C15AD3F6282FF3F30029C9F9 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		C163D05B2839C1FA00BAB583 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		C163D05D2839C21700BAB583 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C163D0602839C93100BAB583 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		C163D0622839E75F00BAB583 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C16A977B2834EC1F00CE64D5 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		C16A977D2834ECE800CE64D5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		C16A977F2834ED2600CE64D5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C16F302928364F2200AFF20D /* TaskViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewCell.swift; sourceTree = "<group>"; };
+		C16F302B28366B4300AFF20D /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
+		C1910CBD283D137900FE04AD /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		C1910CBF283D13B600FE04AD /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		E11F5F8E66976ED8B2D00D8A /* Pods_TimePad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimePad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15AD3CD282FE1D50029C9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C5A2D61E2078FC287EAFA6 /* Pods_TimePad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A64CDCFD5B139C0836DFAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E11F5F8E66976ED8B2D00D8A /* Pods_TimePad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15AD3C7282FE1D50029C9F9 = {
+			isa = PBXGroup;
+			children = (
+				C15AD3D2282FE1D50029C9F9 /* TimePad */,
+				C15AD3D1282FE1D50029C9F9 /* Products */,
+				E036344911C19B4A825A08A9 /* Pods */,
+				2A64CDCFD5B139C0836DFAED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C15AD3D1282FE1D50029C9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15AD3D0282FE1D50029C9F9 /* TimePad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15AD3D2282FE1D50029C9F9 /* TimePad */ = {
+			isa = PBXGroup;
+			children = (
+				C163D05A2839C1EA00BAB583 /* Model */,
+				C16A97782834EB5700CE64D5 /* Views */,
+				C15AD3F1282FED980029C9F9 /* Extensions */,
+				C15AD3E7282FE26B0029C9F9 /* Modules */,
+				C15AD3D3282FE1D50029C9F9 /* AppDelegate.swift */,
+				C15AD3D5282FE1D50029C9F9 /* SceneDelegate.swift */,
+				C15AD3DC282FE1D60029C9F9 /* Assets.xcassets */,
+				C15AD3DE282FE1D60029C9F9 /* LaunchScreen.storyboard */,
+				C15AD3E1282FE1D60029C9F9 /* Info.plist */,
+			);
+			path = TimePad;
+			sourceTree = "<group>";
+		};
+		C15AD3E7282FE26B0029C9F9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C163D05F2839C91700BAB583 /* Task */,
+				C15AD3EC282FE5810029C9F9 /* Chart */,
+				C15AD3EB282FE57B0029C9F9 /* Home */,
+				C15AD3E8282FE27A0029C9F9 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C15AD3E8282FE27A0029C9F9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C15AD3E9282FE2860029C9F9 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C15AD3EB282FE57B0029C9F9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C15AD3ED282FE5940029C9F9 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C15AD3EC282FE5810029C9F9 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C15AD3EF282FE5A50029C9F9 /* ChartViewController.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		C15AD3F1282FED980029C9F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C15AD3F2282FEDA50029C9F9 /* UIColorExtensions.swift */,
+				C15AD3F6282FF3F30029C9F9 /* UIViewControllerExtensions.swift */,
+				C1910CBD283D137900FE04AD /* TimeIntervalExtensions.swift */,
+				C15361562846639200B09791 /* DateExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C163D05A2839C1EA00BAB583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C163D05B2839C1FA00BAB583 /* Tag.swift */,
+				C163D05D2839C21700BAB583 /* Category.swift */,
+				C163D0622839E75F00BAB583 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C163D05F2839C91700BAB583 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				C163D0602839C93100BAB583 /* AddTaskViewController.swift */,
+				C1910CBF283D13B600FE04AD /* TaskViewController.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		C16A97782834EB5700CE64D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C16A977B2834EC1F00CE64D5 /* TabBarButton.swift */,
+				C16A977D2834ECE800CE64D5 /* TabBarView.swift */,
+				C16A977F2834ED2600CE64D5 /* BaseViewController.swift */,
+				C16F302928364F2200AFF20D /* TaskViewCell.swift */,
+				C16F302B28366B4300AFF20D /* HistoryViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E036344911C19B4A825A08A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11BF4C84AFFDFB32A16EC9A1 /* Pods-TimePad.debug.xcconfig */,
+				47BA5B088A040C3577AA3DBD /* Pods-TimePad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15AD3CF282FE1D50029C9F9 /* TimePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15AD3E4282FE1D60029C9F9 /* Build configuration list for PBXNativeTarget "TimePad" */;
+			buildPhases = (
+				43A9DEE22A07AE875E7734F7 /* [CP] Check Pods Manifest.lock */,
+				C15AD3CC282FE1D50029C9F9 /* Sources */,
+				C15AD3CD282FE1D50029C9F9 /* Frameworks */,
+				C15AD3CE282FE1D50029C9F9 /* Resources */,
+				6586D6B00A077AC4FA43945B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimePad;
+			productName = TimePad;
+			productReference = C15AD3D0282FE1D50029C9F9 /* TimePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15AD3C8282FE1D50029C9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C15AD3CF282FE1D50029C9F9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C15AD3CB282FE1D50029C9F9 /* Build configuration list for PBXProject "TimePad" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15AD3C7282FE1D50029C9F9;
+			productRefGroup = C15AD3D1282FE1D50029C9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15AD3CF282FE1D50029C9F9 /* TimePad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C15AD3CE282FE1D50029C9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15AD3E0282FE1D60029C9F9 /* LaunchScreen.storyboard in Resources */,
+				C15AD3DD282FE1D60029C9F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A9DEE22A07AE875E7734F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimePad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6586D6B00A077AC4FA43945B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimePad/Pods-TimePad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimePad/Pods-TimePad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimePad/Pods-TimePad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15AD3CC282FE1D50029C9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15AD3D4282FE1D50029C9F9 /* AppDelegate.swift in Sources */,
+				C16F302A28364F2200AFF20D /* TaskViewCell.swift in Sources */,
+				C16A977E2834ECE800CE64D5 /* TabBarView.swift in Sources */,
+				C15AD3D6282FE1D50029C9F9 /* SceneDelegate.swift in Sources */,
+				C163D0612839C93100BAB583 /* AddTaskViewController.swift in Sources */,
+				C15AD3EA282FE2860029C9F9 /* MainViewController.swift in Sources */,
+				C15361572846639200B09791 /* DateExtensions.swift in Sources */,
+				C16F302C28366B4300AFF20D /* HistoryViewCell.swift in Sources */,
+				C15AD3F3282FEDA50029C9F9 /* UIColorExtensions.swift in Sources */,
+				C163D0632839E75F00BAB583 /* Task.swift in Sources */,
+				C16A97802834ED2600CE64D5 /* BaseViewController.swift in Sources */,
+				C15AD3EE282FE5940029C9F9 /* HomeViewController.swift in Sources */,
+				C16A977C2834EC1F00CE64D5 /* TabBarButton.swift in Sources */,
+				C1910CBE283D137900FE04AD /* TimeIntervalExtensions.swift in Sources */,
+				C15AD3F0282FE5A50029C9F9 /* ChartViewController.swift in Sources */,
+				C15AD3F7282FF3F30029C9F9 /* UIViewControllerExtensions.swift in Sources */,
+				C163D05C2839C1FA00BAB583 /* Tag.swift in Sources */,
+				C163D05E2839C21700BAB583 /* Category.swift in Sources */,
+				C1910CC0283D13B600FE04AD /* TaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C15AD3DE282FE1D60029C9F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15AD3DF282FE1D60029C9F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C15AD3E2282FE1D60029C9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C15AD3E3282FE1D60029C9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15AD3E5282FE1D60029C9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BF4C84AFFDFB32A16EC9A1 /* Pods-TimePad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AS32Y773Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimePad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farisarie.TimePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C15AD3E6282FE1D60029C9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BA5B088A040C3577AA3DBD /* Pods-TimePad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AS32Y773Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimePad/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farisarie.TimePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15AD3CB282FE1D50029C9F9 /* Build configuration list for PBXProject "TimePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15AD3E2282FE1D60029C9F9 /* Debug */,
+				C15AD3E3282FE1D60029C9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15AD3E4282FE1D60029C9F9 /* Build configuration list for PBXNativeTarget "TimePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15AD3E5282FE1D60029C9F9 /* Debug */,
+				C15AD3E6282FE1D60029C9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15AD3C8282FE1D50029C9F9 /* Project object */;
+}

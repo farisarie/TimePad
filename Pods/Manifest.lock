@@ -1,0 +1,26 @@
+PODS:
+  - ALProgressView (2.0.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - IQKeyboardManagerSwift (6.5.10)
+
+DEPENDENCIES:
+  - ALProgressView
+  - Charts
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - ALProgressView
+    - Charts
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  ALProgressView: 547883405970e932d8f1f12b605aa4f6df08f155
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+
+PODFILE CHECKSUM: 0dd2663d44f6d3763bcfa85529fc649ec8441156
+
+COCOAPODS: 1.11.2
